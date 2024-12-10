@@ -1,0 +1,106 @@
+/* Global */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,800|Roboto+Condensed:400,700");
+html,
+body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    min-height: 100%;
+}
+
+
+/* Links */
+
+a,
+a:hover {
+    text-decoration: none;
+    letter-spacing: 0;
+}
+
+a:hover,
+a:hover:hover {
+    letter-spacing: 0;
+}
+
+
+/* 02. Typography 
+--------------------------------------------------- */
+
+
+/* Free Alternative Google Fonts */
+
+
+/* Body */
+
+body {
+    font-family: "Termina", "Roboto Condensed", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Heading */
+
+h1,
+.uk-h1,
+h2,
+.uk-h2,
+h3,
+.uk-h3,
+h4,
+.uk-h4,
+h5,
+.uk-h5,
+h6,
+.uk-h6 {
+    font-family: "Pirulen Rg", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: -.04em;
+}
+
+
+/* Blockquote */
+
+blockquote>p {
+    font-size: 24px;
+    font-family: "Pirulen Rg", "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -.02em;
+}
+
+blockquote>p:before {
+    content: "\275D";
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+blockquote>p:after {
+    content: "\275E";
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+blockquote>footer {
+    margin-top: 20px;
+    font-style: normal;
+}
+
+blockquote>footer:before {
+    display: none;
+}
+
+
+/* Base */
+
+strong,
+b {
+    font-weight: 800;
+}
+
+strong {
+    font-family: "Pirulen Rg", sans-serif;
+}

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'pirulen rg';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pirulen Rg'), url('../fonts/pirulen\ rg.woff') format('woff')
+}
